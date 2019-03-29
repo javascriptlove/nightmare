@@ -1,4 +1,4 @@
-[![Build Status](https://img.shields.io/circleci/project/segmentio/nightmare/master.svg)](https://circleci.com/gh/segmentio/nightmare)
+[![Build Status](https://travis-ci.org/javascriptlove/nightmare.svg?branch=master)](https://travis-ci.org/javascriptlove/nightmare)
 [![Join the chat at https://gitter.im/rosshinkley/nightmare](https://badges.gitter.im/rosshinkley/nightmare.svg)](https://gitter.im/rosshinkley/nightmare?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 # Nightmare
