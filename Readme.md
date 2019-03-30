@@ -1,5 +1,18 @@
 [![Build Status](https://travis-ci.org/javascriptlove/nightmare.svg?branch=master)](https://travis-ci.org/javascriptlove/nightmare)
 
+# Fork
+
+This repository is supposed to have faster merges and more of a "beta" style. To use it in NPM, you can directly load dependency from Github using a specific commit, like
+
+```
+{
+  "dependencies": {
+    "nightmare": "javascriptlove/nightmare#e07c37327f512bcbc7e3d0618d23e32181c29bd3",
+    "xvfb": "^0.2.3"
+  }
+}
+```
+
 # Nightmare
 
 Nightmare is a high-level browser automation library from [Segment](https://segment.com).
