@@ -600,7 +600,7 @@ describe('Nightmare', function() {
     })
 
     it('should fail immediately/not time out for 304 statuses', function() {
-      return Nightmare({ gotoTimeout: 500 })
+      return Nightmare({ gotoTimeout: 1000 })
         .goto(fixture('not-modified'))
         .end()
         .then(
@@ -631,7 +631,7 @@ describe('Nightmare', function() {
         function() {}
       )
 
-      return Nightmare({ gotoTimeout: 500 })
+      return Nightmare({ gotoTimeout: 1000 })
         .goto(fixture('navigation'))
         .end()
         .then(
